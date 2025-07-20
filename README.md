@@ -1,0 +1,1 @@
+client-app is a "front" part of Client Input Processing project. It handles user registration/login, exposes REST endpoint for users to submit text data, sends user input to processor-app, subscribes to a message broker to get result from the processor-app
