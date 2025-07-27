@@ -21,8 +21,6 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
-#jwt:
-#  secret: secret-key
-#  expiration: 3600000
-
-
+jwt:
+  secret: my-secret-key
+  expiration: 3600000
